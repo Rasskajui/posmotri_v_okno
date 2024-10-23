@@ -204,6 +204,9 @@ ol {
   border: 1px solid #fff;
   cursor: pointer;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
@@ -211,7 +214,7 @@ ol {
   width: 15px;
   height: 15px;
   background-color: #fff;
-  position: absolute;
+  position: relative;
   margin: auto;
   inset: 0;
 }
@@ -221,7 +224,7 @@ ol {
   width: 15px;
   height: 15px;
   background-color: #fff;
-  position: absolute;
+  position: relative;
   margin: auto;
   inset: 0;
 }
